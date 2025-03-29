@@ -32,6 +32,12 @@ public class Stack {
         }
     }
 
+    @Override
+    public String toString() {
+        System.out.println(charArr);
+        return charArr.toString();
+    }
+
     public char pop() {
         if (isStackEmpty()) {
             System.out.println("Stack is Already Empty");

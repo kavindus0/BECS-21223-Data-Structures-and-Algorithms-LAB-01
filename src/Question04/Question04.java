@@ -14,8 +14,6 @@ public class Question04 {
     int oCount=0;
     int uCount=0;
 
-    
- char[] vowelList = {'a','e','i','o','u'};
 
 public void VowelChecker(String inpString){
 

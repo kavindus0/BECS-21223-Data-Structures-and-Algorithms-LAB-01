@@ -56,10 +56,13 @@ ArrayList<Character> charArrayList = new ArrayList<>();
     for (char c : charArrayList) {
         outputStack.push(c);
     }
-    System.out.println(outputStack);
+
+    while (!outputStack.isStackEmpty()){
+        System.out.println((outputStack.pop()));
+    }
 
 
-    
+
 
 
 }

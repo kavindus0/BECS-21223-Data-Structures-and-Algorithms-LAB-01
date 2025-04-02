@@ -35,7 +35,7 @@ public class Stack {
     @Override
     public String toString() {
         System.out.println(charArr);
-        return charArr.toString();
+        return "";
     }
 
     public char pop() {

@@ -1,10 +1,10 @@
 package Question05;
-public class Stack {
+public class StackString {
     private int top;
     private int maxSize;
     private String[] StrArr;
 
-    public Stack(int size) {
+    public StackString(int size) {
         this.maxSize = size;
         StrArr = new String[maxSize];
         top=-1;
@@ -23,7 +23,7 @@ public class Stack {
         return top;
     }
 
-    public void push(int newValue){
+    public void push(String newValue){
         if (isStackFull()){
             System.out.println("Quest.Question02.Stack Already Full");
         }

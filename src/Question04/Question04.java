@@ -25,7 +25,7 @@ public void VowelChecker(String inpString){
     stackForWord.push(c);
    }
 
-ArrayList<Character> charArrayList = new ArrayList<>();
+    ArrayList<Character> charArrayList = new ArrayList<>();
 
 
    
@@ -47,19 +47,17 @@ ArrayList<Character> charArrayList = new ArrayList<>();
                 uCount++;
             }       
         }
-    
 
- 
-    java.util.Collections.sort(charArrayList);
-    
-    Stack outputStack = new Stack(charArrayList.size());
-    for (char c : charArrayList) {
-        outputStack.push(c);
-    }
+        java.util.Collections.sort(charArrayList);
 
-    while (!outputStack.isStackEmpty()){
-        System.out.println((outputStack.pop()));
+    for (Character character : charArrayList.reversed()) {
+        stackForVowel.push(character);
     }
+    while (!stackForVowel.isStackEmpty()) {
+        System.out.printf(stackForVowel.pop()+"");
+    }
+    System.out.println();
+
 
 
 

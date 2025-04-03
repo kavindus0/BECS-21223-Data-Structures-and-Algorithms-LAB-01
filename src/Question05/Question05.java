@@ -1,16 +1,9 @@
 package Question05;
 
-
-//. Write a program that reads an integer and prints its
-//        i. Binary
-//        ii. Octal
-//        iii. Hexadecimal Representation
-//        using the Stack operations. (Hint: Use stacks to store remainders while converting an integer
-//        to binary, octal, and hexadecimal.)
 public class Question05 {
     Stack stackforBin = new Stack(32);
-    Stack stackforOctal = new Stack(18);
-    StackString stack = new StackString(12);
+    Stack stackforOctal = new Stack(32);
+    StackString stack = new StackString(32);
 
     public void binaryConvert(int no){
         while(!(no==0)){

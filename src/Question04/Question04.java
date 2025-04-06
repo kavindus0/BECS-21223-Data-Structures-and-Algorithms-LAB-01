@@ -1,12 +1,6 @@
-
 package Question04;
-
 import java.util.ArrayList;
 import java.util.Collection;
-
-// Write a program that reads a string
-//and prints the vowels i
-// in ascending order of the alphabet using two stacks.Example:Input:DIALOGUE Output:A E I O U
 public class Question04 {
     int aCount=0;
     int eCount=0;
@@ -57,11 +51,5 @@ public void VowelChecker(String inpString){
         System.out.printf(stackForVowel.pop()+"");
     }
     System.out.println();
-
-
-
-
-
-
 }
 }

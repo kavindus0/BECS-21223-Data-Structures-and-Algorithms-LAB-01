@@ -2,7 +2,7 @@ package Question04;
 
 public class Test {
     public static void main(String[] args) {
-        Question04 example01 = new Question04();
+Question04 example01 = new Question04();
 Question04 example02 = new Question04();
 Question04 example03 = new Question04();
 Question04 example04 = new Question04();
